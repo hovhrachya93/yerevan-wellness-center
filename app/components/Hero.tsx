@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { Dictionary } from "../[lang]/dictionaries";
 import Reveal from "./Reveal";
+import { DECOR_IMAGE_SIZES } from "./decorImage";
 import decor from "./ClassDecor.module.css";
 import styles from "./Hero.module.css";
 
@@ -14,6 +15,8 @@ export default function Hero({ dict }: { dict: Dictionary["hero"] }) {
         alt=""
         width={800}
         height={800}
+        sizes={DECOR_IMAGE_SIZES}
+        priority
         className={`${decor.decor} ${decor.topRight}`}
       />
       <Image
@@ -21,6 +24,8 @@ export default function Hero({ dict }: { dict: Dictionary["hero"] }) {
         alt=""
         width={800}
         height={800}
+        sizes={DECOR_IMAGE_SIZES}
+        priority
         className={`${decor.decor} ${decor.bottomLeft}`}
       />
       <div className={`container ${styles.inner}`}>

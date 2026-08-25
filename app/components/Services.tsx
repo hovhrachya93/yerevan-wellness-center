@@ -4,6 +4,7 @@ import type { Dictionary } from "../[lang]/dictionaries";
 import type { Locale } from "../i18n";
 import { SERVICE_ICONS } from "../service-icons";
 import Reveal from "./Reveal";
+import { DECOR_IMAGE_SIZES } from "./decorImage";
 import decor from "./ClassDecor.module.css";
 import styles from "./Services.module.css";
 
@@ -21,6 +22,7 @@ export default function Services({
         alt=""
         width={800}
         height={800}
+        sizes={DECOR_IMAGE_SIZES}
         className={`${decor.decor} ${decor.bottomRight}`}
       />
       <div className={`container ${styles.inner}`}>

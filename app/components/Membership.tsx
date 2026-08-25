@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Dictionary } from "../[lang]/dictionaries";
 import type { Locale } from "../i18n";
 import Reveal from "./Reveal";
+import { DECOR_IMAGE_SIZES } from "./decorImage";
 import decor from "./ClassDecor.module.css";
 import styles from "./Membership.module.css";
 
@@ -22,6 +23,7 @@ export default function Membership({
         alt=""
         width={800}
         height={800}
+        sizes={DECOR_IMAGE_SIZES}
         className={`${decor.decor} ${decor.topRight}`}
       />
       <div className={`container ${styles.inner}`}>

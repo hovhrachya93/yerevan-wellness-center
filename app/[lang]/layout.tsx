@@ -31,14 +31,17 @@ export async function generateMetadata({
   const dict = await getDictionary(lang);
 
   return {
+    metadataBase: new URL("https://yerevan-wellness-center.vercel.app"),
     title: dict.meta.title,
     description: dict.meta.description,
     alternates: {
+      canonical: `/${lang}`,
       languages: {
         en: "/en",
         hy: "/hy",
         ru: "/ru",
         fr: "/fr",
+        "x-default": "/hy",
       },
     },
   };

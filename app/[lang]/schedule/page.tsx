@@ -3,6 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import ScheduleExplorer from "../../components/ScheduleExplorer";
 import Reveal from "../../components/Reveal";
+import { DECOR_IMAGE_SIZES } from "../../components/decorImage";
 import { getDictionary, hasLocale } from "../dictionaries";
 import styles from "../../components/ScheduleExplorer.module.css";
 import decor from "../../components/ClassDecor.module.css";
@@ -33,6 +34,8 @@ export default async function SchedulePage({ params }: PageProps<"/[lang]/schedu
           alt=""
           width={800}
           height={800}
+          sizes={DECOR_IMAGE_SIZES}
+          priority
           className={`${decor.decor} ${decor.topRight}`}
         />
         <Image
@@ -40,6 +43,8 @@ export default async function SchedulePage({ params }: PageProps<"/[lang]/schedu
           alt=""
           width={800}
           height={800}
+          sizes={DECOR_IMAGE_SIZES}
+          priority
           className={`${decor.decor} ${decor.bottomLeft}`}
         />
         <div className={`container ${styles.heroInner}`}>
