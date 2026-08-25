@@ -83,4 +83,9 @@
     aspect-ratio: 16 / 9;
     order: -1;
   }
+
+  .visualCrest {
+    width: auto;
+    height: 80%;
+  }
 }
