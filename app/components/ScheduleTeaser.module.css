@@ -1,0 +1,31 @@
+.schedule {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-bg);
+}
+
+.inner {
+  position: relative;
+}
+
+.heading {
+  margin-top: 14px;
+  font-size: clamp(1.8rem, 3.4vw, 2.5rem);
+}
+
+.subheading {
+  margin-top: 14px;
+  color: var(--color-ink-soft);
+  max-width: 52ch;
+  line-height: 1.6;
+}
+
+.dayLabel {
+  margin-top: 40px;
+  font-family: var(--font-display), serif;
+  font-size: 1.2rem;
+}
+
+.cta {
+  margin-top: 24px;
+}

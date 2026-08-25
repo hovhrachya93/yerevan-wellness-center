@@ -1,0 +1,86 @@
+.about {
+  position: relative;
+  overflow: hidden;
+}
+
+.grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: clamp(32px, 6vw, 72px);
+  align-items: center;
+}
+
+.heading {
+  margin-top: 14px;
+  font-size: clamp(1.8rem, 3.4vw, 2.5rem);
+}
+
+.text {
+  margin-top: 18px;
+  color: var(--color-ink-soft);
+  line-height: 1.7;
+  font-size: 1.02rem;
+  max-width: 58ch;
+}
+
+.visual {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  border-radius: var(--radius-lg);
+  background: radial-gradient(
+    120% 100% at 50% 20%,
+    color-mix(in srgb, var(--color-brand) 16%, var(--color-bg-elevated)) 0%,
+    var(--color-bg-elevated) 60%
+  );
+  border: 1px solid var(--color-border);
+  padding: 28px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.visualCrest {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 78%;
+  height: auto;
+  transform: translate(-50%, -55%);
+  opacity: 0.9;
+  filter: drop-shadow(0 0 50px color-mix(in srgb, var(--color-brand) 45%, transparent));
+}
+
+.visualCard {
+  position: relative;
+  color: var(--color-ink);
+}
+
+.visualBadge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-ink) 12%, transparent);
+  border: 1px solid var(--color-border);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.visualCity {
+  margin-top: 14px;
+  font-family: var(--font-display), serif;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .visual {
+    aspect-ratio: 16 / 9;
+    order: -1;
+  }
+}

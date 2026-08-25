@@ -1,0 +1,52 @@
+.ticker {
+  position: relative;
+  overflow: hidden;
+  background: #2a0a10;
+  border-bottom: 1px solid rgba(255, 70, 95, 0.35);
+}
+
+.track {
+  display: inline-flex;
+  align-items: center;
+  width: max-content;
+  padding-block: 10px;
+  animation: scroll 34s linear infinite;
+  will-change: transform;
+}
+
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding-inline: 28px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #ff5b76;
+  white-space: nowrap;
+}
+
+.item::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ff5b76;
+  box-shadow: 0 0 6px #ff5b76;
+  flex-shrink: 0;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .track {
+    animation: none;
+  }
+}

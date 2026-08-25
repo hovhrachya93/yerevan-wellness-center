@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "title": "Yerevan Wellness Center",
+    "description": "The biggest wellness center in Yerevan — gym, spa, indoor & outdoor pools, restaurants and more. Open now since July 31, 2026."
+  },
+  "openStatus": {
+    "openNow": "Open now",
+    "closedNow": "Closed now",
+    "closesIn": "Closes in",
+    "opensIn": "Opens in",
+    "hourAbbr": "h",
+    "minuteAbbr": "m"
+  },
+  "ticker": {
+    "items": [
+      "This website is not affiliated with Yerevan Wellness Center — it is a demo project only.",
+      "The club will be closed January 1–2 for the New Year holiday.",
+      "The pool will be closed February 2–5 for scheduled cleaning.",
+      "No hot water on March 5 due to scheduled gas maintenance."
+    ]
+  },
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "schedule": "Schedule",
+    "membership": "Membership",
+    "careers": "Careers",
+    "visit": "Visit",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
+  },
+  "hero": {
+    "eyebrow": "Open since July 31, 2026",
+    "title": "The biggest wellness destination in Yerevan",
+    "lead": "Gym, indoor & outdoor pools, spa, beauty, barbershop and restaurants — all under one roof, minutes from the city.",
+    "ctaPrimary": "Explore Membership",
+    "ctaSecondary": "Follow on Instagram",
+    "stats": {
+      "facilitiesLabel": "Facilities",
+      "facilitiesValue": "8 experiences, one address",
+      "weekdaysLabel": "Weekdays",
+      "weekdaysValue": "7:00 – 23:00",
+      "weekendsLabel": "Weekends",
+      "weekendsValue": "8:00 – 22:00"
+    }
+  },
+  "about": {
+    "eyebrow": "About the center",
+    "heading": "One address, every part of wellbeing",
+    "paragraph1": "Yerevan Wellness Center is a single destination built around movement, recovery and everyday life — a full gym and group studios, indoor and outdoor pools, a spa, beauty salon and barbershop, restaurants, and dedicated clubs for kids and expecting mothers.",
+    "paragraph2": "We opened our doors on July 31, 2026, and we're just getting started. Follow along on Instagram to see what's happening inside.",
+    "badge": "Est. 2026",
+    "city": "Yerevan, Armenia",
+    "detailsCta": "Our Full Story"
+  },
+  "services": {
+    "eyebrow": "What's inside",
+    "heading": "Eight experiences, one membership",
+    "items": [
+      { "title": "Gym & Fitness", "description": "Full-floor strength and cardio equipment for every level." },
+      { "title": "Group Classes", "description": "Studio sessions from HIIT to yoga, led by our coaches." },
+      { "title": "Indoor & Outdoor Pools", "description": "Swim year-round, indoors in winter and outdoors in summer." },
+      { "title": "Spa Center", "description": "Massage, sauna and treatments to recover and unwind." },
+      { "title": "Beauty & Barbershop", "description": "Salon and barbershop services on-site, no extra trip." },
+      { "title": "Restaurants & Bar", "description": "Two venues for everyday meals and evenings out." },
+      { "title": "Kids & Pregnancy Clubs", "description": "Dedicated programs for children and expecting mothers." },
+      { "title": "Parking & Car Wash", "description": "Large on-site parking with car wash while you train." }
+    ],
+    "detailsCta": "See Full Facility Guide"
+  },
+  "membership": {
+    "eyebrow": "Membership",
+    "heading": "Choose your plan",
+    "subheading": "Message us on Instagram for current pricing and to get set up.",
+    "mostPopular": "Most Popular",
+    "cta": "Message on Instagram",
+    "plans": [
+      {
+        "name": "Basic",
+        "description": "Everything you need to train, on your own schedule.",
+        "features": ["Full gym access", "Locker access", "Free fitness assessment", "2–12 month terms"]
+      },
+      {
+        "name": "Standard",
+        "description": "Add the pools and studio classes to your routine.",
+        "features": ["Everything in Basic", "Indoor & outdoor pool access", "Unlimited group classes", "1 guest pass / month", "Membership freeze option"]
+      },
+      {
+        "name": "Premium",
+        "description": "The full center, with VIP touches throughout.",
+        "features": ["Everything in Standard", "Dedicated locker room", "Monthly spa treatment", "Beauty & barbershop access", "Personal training sessions"]
+      }
+    ],
+    "detailsCta": "View Full Plans & FAQ"
+  },
+  "visit": {
+    "eyebrow": "Visit us",
+    "heading": "Now Open in Yerevan",
+    "locationLabel": "Location",
+    "locationValue": "31 Khanjyan St, Yerevan 0010, Armenia",
+    "hoursLabel": "Hours",
+    "hours": [
+      { "day": "Monday – Friday", "time": "7:00 – 23:00" },
+      { "day": "Saturday – Sunday", "time": "8:00 – 22:00" }
+    ],
+    "instagramHandle": "@yerevan_wellness",
+    "instagramText": "Follow along for classes, facility updates and member offers.",
+    "instagramCta": "Follow on Instagram",
+    "detailsCta": "Visit Details"
+  },
+  "footer": {
+    "tagline": "The biggest wellness center in Yerevan. Open since July 31, 2026.",
+    "city": "Yerevan, Armenia"
+  },
+  "schedule": {
+    "eyebrow": "Weekly schedule",
+    "heading": "Classes for every day",
+    "subheading": "Browse the week, filter by room, and see what's running right now.",
+    "viewFull": "View Full Schedule",
+    "allRooms": "All Rooms",
+    "roomLabel": "Room",
+    "pool": "Pool",
+    "liveNow": "Live now",
+    "noClasses": "No classes in this room today.",
+    "days": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    },
+    "daysShort": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Our story",
+    "heading": "Built for how Yerevan actually lives",
+    "intro": "We didn't set out to build another gym. We set out to build the one place in Yerevan where training, recovering, eating well, and bringing your family could all happen without getting back in the car.",
+    "story": [
+      {
+        "title": "Why we started",
+        "text": "Yerevan has great gyms, great pools, great spas — scattered across the city, each requiring its own trip, its own membership, its own schedule. We asked what it would take to put all of it under one roof, done well, and built from there."
+      },
+      {
+        "title": "What we built",
+        "text": "Eight zones on one site: a full gym floor, indoor and outdoor pools, group studios, a spa, a beauty salon and barbershop, two restaurants, and dedicated clubs for kids and expecting mothers — plus parking and a car wash, so the whole visit takes care of itself."
+      },
+      {
+        "title": "Who it's for",
+        "text": "Early risers who want a swim before work. Parents who need somewhere for the kids while they train. Anyone who wants a proper spa day without leaving the building they just worked out in. We built for all of it at once."
+      }
+    ],
+    "pillars": [
+      { "title": "Movement", "text": "A full gym floor, group studios, and two pools mean there's always a way to train, whatever the day calls for." },
+      { "title": "Recovery", "text": "Sauna, massage, and spa treatments are steps away from the gym floor, not a separate trip across town." },
+      { "title": "Community", "text": "Group classes, a kids' club, and a dedicated space for expecting mothers make this a place for the whole family, not just the individual member." },
+      { "title": "Convenience", "text": "Restaurants, a beauty salon, barbershop, parking, and a car wash mean one visit can cover most of your day." }
+    ],
+    "timeline": [
+      { "label": "2024", "text": "Groundbreaking on the largest wellness site in the city." },
+      { "label": "2025", "text": "Construction and equipment installation across all eight zones, from the pools to the spa." },
+      { "label": "2026", "text": "Doors opened on July 31 — memberships, classes, and the full facility went live." }
+    ],
+    "ctaHeading": "Ready to see what's inside?",
+    "ctaButton": "Explore Membership"
+  },
+  "servicesPage": {
+    "eyebrow": "Full facility guide",
+    "heading": "Everything included, zone by zone",
+    "intro": "One membership covers all eight zones. Here's what's actually in each one.",
+    "items": [
+      {
+        "title": "Gym & Fitness",
+        "description": "Full-floor strength and cardio equipment for every level.",
+        "details": ["Free weights, machines, and a functional training area", "Dedicated stretching and mobility zone", "Open floor for personal training sessions"]
+      },
+      {
+        "title": "Group Classes",
+        "description": "Studio sessions from HIIT to yoga, led by our coaches.",
+        "details": ["Multiple studios running classes throughout the day", "Formats from spinning and kickboxing to pilates and dance", "New members get a free first class"]
+      },
+      {
+        "title": "Indoor & Outdoor Pools",
+        "description": "Swim year-round, indoors in winter and outdoors in summer.",
+        "details": ["Heated indoor pool open all year", "Outdoor pool open through the warm months", "Dedicated aqua fitness sessions in both pools"]
+      },
+      {
+        "title": "Spa Center",
+        "description": "Massage, sauna and treatments to recover and unwind.",
+        "details": ["Sauna and steam room access included with Premium", "Massage and body treatments bookable by members", "A quiet zone kept separate from the gym floor"]
+      },
+      {
+        "title": "Beauty & Barbershop",
+        "description": "Salon and barbershop services on-site, no extra trip.",
+        "details": ["Full-service salon for hair, nails, and skincare", "Dedicated barbershop chairs", "Book before or after your workout"]
+      },
+      {
+        "title": "Restaurants & Bar",
+        "description": "Two venues for everyday meals and evenings out.",
+        "details": ["A casual all-day spot for post-workout meals", "A SkyLine-style bar and restaurant for evenings", "Menu options built around training schedules"]
+      },
+      {
+        "title": "Kids & Pregnancy Clubs",
+        "description": "Dedicated programs for children and expecting mothers.",
+        "details": ["Supervised kids' club while parents train", "Prenatal fitness and aqua classes", "Family-friendly hours on weekends"]
+      },
+      {
+        "title": "Parking & Car Wash",
+        "description": "Large on-site parking with car wash while you train.",
+        "details": ["Free parking for all members", "Car wash while you're inside", "Easy access, no street parking needed"]
+      }
+    ],
+    "ctaHeading": "Find the plan that covers it all",
+    "ctaButton": "View Membership Plans"
+  },
+  "membershipPage": {
+    "eyebrow": "Membership",
+    "heading": "The right plan for how you'll actually use it",
+    "intro": "Three tiers, each building on the last. Message us on Instagram for current pricing — here's what's in each plan.",
+    "plans": [
+      {
+        "name": "Basic",
+        "description": "Everything you need to train, on your own schedule.",
+        "bestFor": "Best for training on your own, on your own schedule.",
+        "features": ["Full gym access", "Locker access", "Free fitness assessment", "2–12 month terms"]
+      },
+      {
+        "name": "Standard",
+        "description": "Add the pools and studio classes to your routine.",
+        "bestFor": "Best for members who want the pools and classes in the mix.",
+        "features": ["Everything in Basic", "Indoor & outdoor pool access", "Unlimited group classes", "1 guest pass / month", "Membership freeze option"]
+      },
+      {
+        "name": "Premium",
+        "description": "The full center, with VIP touches throughout.",
+        "bestFor": "Best for members who want the full center, VIP touches included.",
+        "features": ["Everything in Standard", "Dedicated locker room", "Monthly spa treatment", "Beauty & barbershop access", "Personal training sessions"]
+      }
+    ],
+    "faq": [
+      { "question": "How do membership terms work?", "answer": "Plans run from 2 to 12 months. Longer terms include better value and more flexibility on freezing your membership." },
+      { "question": "Can I freeze my membership?", "answer": "Standard and Premium plans include a freeze option, so travel or injury doesn't cost you time you've paid for." },
+      { "question": "What comes with a guest pass?", "answer": "Standard and Premium members get a monthly guest pass — bring a friend or family member in for a full visit, no separate membership needed." },
+      { "question": "Is there a kids' or family option?", "answer": "The kids' club and pregnancy club are included in every plan — there's no separate membership needed for either." },
+      { "question": "How do I find out pricing?", "answer": "Message us on Instagram or ask at the front desk — we'll walk you through current pricing and get you set up." }
+    ],
+    "ctaHeading": "Ready to join?",
+    "ctaButton": "Message on Instagram"
+  },
+  "visitPage": {
+    "eyebrow": "Visit us",
+    "heading": "Plan your first visit",
+    "intro": "We opened our doors on July 31, 2026. Here's what to know before you visit.",
+    "location": {
+      "label": "Location",
+      "value": "31 Khanjyan St, Yerevan 0010, Armenia",
+      "note": "A few minutes from the city center, with on-site parking for every visitor."
+    },
+    "getDirections": "Get Directions",
+    "hoursLabel": "Hours",
+    "hours": [
+      { "day": "Monday – Friday", "time": "7:00 – 23:00" },
+      { "day": "Saturday – Sunday", "time": "8:00 – 22:00" }
+    ],
+    "info": [
+      { "title": "Getting here", "text": "Full directions and transit information will be posted here once the address is confirmed." },
+      { "title": "Parking", "text": "Large on-site parking is free for all members, with car wash service available while you're inside." },
+      { "title": "First visit", "text": "Stop by the front desk for a quick tour and to set up your membership — no appointment needed." },
+      { "title": "Contact", "text": "For now, Instagram is the fastest way to reach us with questions before our phone line goes live." }
+    ],
+    "instagramHandle": "@yerevan_wellness",
+    "instagramText": "Follow along for classes, facility updates and member offers.",
+    "instagramCta": "Follow on Instagram"
+  },
+  "careers": {
+    "eyebrow": "Careers",
+    "heading": "Build your career with us",
+    "text": "We're building a team as big as the center itself — trainers, therapists, and hosts who make Yerevan Wellness feel like home. If that's you, we'd love to hear from you.",
+    "roles": ["Trainers & Coaches", "Spa & Beauty", "Pool & Aqua", "Front Desk", "Food & Beverage", "Kids Club"],
+    "detailsCta": "View Open Roles"
+  },
+  "careersPage": {
+    "eyebrow": "Careers",
+    "heading": "Join the team building Yerevan's biggest wellness center",
+    "intro": "We're hiring across every part of the center — from the gym floor to the front desk. Here's what it's like to work with us, and how to apply.",
+    "perks": [
+      { "title": "Free membership", "text": "Full access to the gym, pools, and classes for every team member." },
+      { "title": "Training & certification", "text": "We invest in your growth with ongoing training and support for certifications." },
+      { "title": "Room to grow", "text": "As one of the newest teams in the city, there's real room to grow into bigger roles." },
+      { "title": "A team-first culture", "text": "You'll work alongside people who care about the same things you do — movement, people, and doing things properly." }
+    ],
+    "rolesHeading": "Roles we're hiring for",
+    "roles": [
+      { "title": "Trainers & Coaches", "text": "Personal trainers and group class instructors across strength, cardio, and specialty formats." },
+      { "title": "Spa & Beauty Specialists", "text": "Massage therapists, estheticians, and barbers for our spa and beauty floor." },
+      { "title": "Pool & Aqua Staff", "text": "Lifeguards and swim/aqua fitness instructors for our indoor and outdoor pools." },
+      { "title": "Front Desk & Membership", "text": "The first face members see — front desk, membership consultants, and guest services." },
+      { "title": "Food & Beverage", "text": "Kitchen and service staff for our restaurants and bar." },
+      { "title": "Kids & Family Club", "text": "Childcare staff for our kids' club and instructors for our prenatal fitness programs." }
+    ],
+    "ctaHeading": "Don't see your role listed?",
+    "ctaText": "Send us a message anyway — we're building this team from scratch and always open to meeting good people.",
+    "ctaButton": "Message on Instagram"
+  }
+}

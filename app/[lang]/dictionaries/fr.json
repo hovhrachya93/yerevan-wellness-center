@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "title": "Yerevan Wellness Center",
+    "description": "Le plus grand centre de bien-être d'Erevan — salle de sport, spa, piscines intérieure et extérieure, restaurants et plus encore. Ouvert depuis le 31 juillet 2026."
+  },
+  "openStatus": {
+    "openNow": "Ouvert maintenant",
+    "closedNow": "Fermé actuellement",
+    "closesIn": "Ferme dans",
+    "opensIn": "Ouvre dans",
+    "hourAbbr": "h",
+    "minuteAbbr": "min"
+  },
+  "ticker": {
+    "items": [
+      "Ce site n'est pas affilié à Yerevan Wellness Center — il s'agit uniquement d'un projet de démonstration.",
+      "Le club sera fermé du 1er au 2 janvier pour le Nouvel An.",
+      "La piscine sera fermée du 2 au 5 février pour un nettoyage prévu.",
+      "Pas d'eau chaude le 5 mars en raison d'une maintenance du gaz prévue."
+    ]
+  },
+  "nav": {
+    "about": "À propos",
+    "services": "Services",
+    "schedule": "Planning",
+    "membership": "Abonnements",
+    "careers": "Carrières",
+    "visit": "Nous visiter",
+    "switchToLight": "Passer au thème clair",
+    "switchToDark": "Passer au thème sombre"
+  },
+  "hero": {
+    "eyebrow": "Ouvert depuis le 31 juillet 2026",
+    "title": "Le plus grand centre de bien-être d'Erevan",
+    "lead": "Salle de sport, piscines intérieure et extérieure, spa, institut de beauté, barbier et restaurants — le tout sous un même toit, à quelques minutes du centre-ville.",
+    "ctaPrimary": "Découvrir les abonnements",
+    "ctaSecondary": "Suivre sur Instagram",
+    "stats": {
+      "facilitiesLabel": "Installations",
+      "facilitiesValue": "8 espaces, une seule adresse",
+      "weekdaysLabel": "Semaine",
+      "weekdaysValue": "7h00 – 23h00",
+      "weekendsLabel": "Week-end",
+      "weekendsValue": "8h00 – 22h00"
+    }
+  },
+  "about": {
+    "eyebrow": "À propos du centre",
+    "heading": "Une seule adresse, tous les aspects du bien-être",
+    "paragraph1": "Yerevan Wellness Center est un lieu unique conçu autour du mouvement, de la récupération et du quotidien : une salle de sport complète et des studios collectifs, des piscines intérieure et extérieure, un spa, un institut de beauté et un barbier, des restaurants, ainsi que des clubs dédiés aux enfants et aux futures mamans.",
+    "paragraph2": "Nous avons ouvert nos portes le 31 juillet 2026, et ce n'est que le début. Suivez-nous sur Instagram pour voir ce qui se passe à l'intérieur.",
+    "badge": "Fondé en 2026",
+    "city": "Erevan, Arménie",
+    "detailsCta": "Notre histoire complète"
+  },
+  "services": {
+    "eyebrow": "Ce qui vous attend",
+    "heading": "Huit expériences, un seul abonnement",
+    "items": [
+      { "title": "Salle de sport et fitness", "description": "Un étage entier d'équipements de musculation et de cardio pour tous les niveaux." },
+      { "title": "Cours collectifs", "description": "Des cours en studio, du HIIT au yoga, animés par nos coachs." },
+      { "title": "Piscines intérieure et extérieure", "description": "Nagez toute l'année : en intérieur l'hiver, en extérieur l'été." },
+      { "title": "Espace spa", "description": "Massages, sauna et soins pour récupérer et se détendre." },
+      { "title": "Beauté et barbier", "description": "Institut de beauté et barbier sur place, sans déplacement supplémentaire." },
+      { "title": "Restaurants et bar", "description": "Deux établissements pour les repas du quotidien et les soirées." },
+      { "title": "Clubs enfants et futures mamans", "description": "Des programmes dédiés aux enfants et aux futures mamans." },
+      { "title": "Parking et lavage auto", "description": "Un grand parking avec lavage auto pendant votre entraînement." }
+    ],
+    "detailsCta": "Voir le guide complet des installations"
+  },
+  "membership": {
+    "eyebrow": "Abonnements",
+    "heading": "Choisissez votre formule",
+    "subheading": "Écrivez-nous sur Instagram pour connaître les tarifs actuels et vous inscrire.",
+    "mostPopular": "Le plus populaire",
+    "cta": "Écrire sur Instagram",
+    "plans": [
+      {
+        "name": "Basique",
+        "description": "L'essentiel pour vous entraîner, à votre rythme.",
+        "features": ["Accès complet à la salle de sport", "Accès au casier", "Bilan fitness gratuit", "Engagements de 2 à 12 mois"]
+      },
+      {
+        "name": "Standard",
+        "description": "Ajoutez les piscines et les cours collectifs à votre routine.",
+        "features": ["Tout ce qui est inclus dans Basique", "Accès aux piscines intérieure et extérieure", "Cours collectifs illimités", "1 pass invité par mois", "Option de gel d'abonnement"]
+      },
+      {
+        "name": "Premium",
+        "description": "Le centre dans son intégralité, avec des attentions VIP partout.",
+        "features": ["Tout ce qui est inclus dans Standard", "Vestiaire dédié", "Un soin spa offert chaque mois", "Accès à l'institut de beauté et au barbier", "Séances de coaching personnel"]
+      }
+    ],
+    "detailsCta": "Voir toutes les formules et la FAQ"
+  },
+  "visit": {
+    "eyebrow": "Nous visiter",
+    "heading": "Ouvert dès maintenant à Erevan",
+    "locationLabel": "Adresse",
+    "locationValue": "31 rue Khanjyan, Erevan 0010, Arménie",
+    "hoursLabel": "Horaires",
+    "hours": [
+      { "day": "Lundi – vendredi", "time": "7h00 – 23h00" },
+      { "day": "Samedi – dimanche", "time": "8h00 – 22h00" }
+    ],
+    "instagramHandle": "@yerevan_wellness",
+    "instagramText": "Suivez-nous pour les cours, les actualités du centre et les offres réservées aux membres.",
+    "instagramCta": "Suivre sur Instagram",
+    "detailsCta": "Détails de la visite"
+  },
+  "footer": {
+    "tagline": "Le plus grand centre de bien-être d'Erevan. Ouvert depuis le 31 juillet 2026.",
+    "city": "Erevan, Arménie"
+  },
+  "schedule": {
+    "eyebrow": "Planning hebdomadaire",
+    "heading": "Des cours chaque jour",
+    "subheading": "Parcourez la semaine, filtrez par salle et découvrez ce qui se passe en ce moment.",
+    "viewFull": "Voir le planning complet",
+    "allRooms": "Toutes les salles",
+    "roomLabel": "Salle",
+    "pool": "Piscine",
+    "liveNow": "En cours",
+    "noClasses": "Aucun cours dans cette salle aujourd'hui.",
+    "days": {
+      "mon": "Lundi",
+      "tue": "Mardi",
+      "wed": "Mercredi",
+      "thu": "Jeudi",
+      "fri": "Vendredi",
+      "sat": "Samedi",
+      "sun": "Dimanche"
+    },
+    "daysShort": {
+      "mon": "Lun",
+      "tue": "Mar",
+      "wed": "Mer",
+      "thu": "Jeu",
+      "fri": "Ven",
+      "sat": "Sam",
+      "sun": "Dim"
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Notre histoire",
+    "heading": "Conçu pour la vie réelle à Erevan",
+    "intro": "Nous ne voulions pas construire une salle de sport de plus. Nous voulions créer le seul endroit à Erevan où l'entraînement, la récupération, une bonne alimentation et des moments en famille soient possibles sans avoir à reprendre la voiture.",
+    "story": [
+      {
+        "title": "Pourquoi nous avons commencé",
+        "text": "Erevan compte d'excellentes salles de sport, piscines et spas — mais dispersés dans toute la ville, chacun nécessitant son propre trajet, son propre abonnement, son propre emploi du temps. Nous nous sommes demandé ce qu'il faudrait pour tout regrouper sous un même toit, bien fait, et nous sommes partis de là."
+      },
+      {
+        "title": "Ce que nous avons construit",
+        "text": "Huit espaces sur un seul site : une salle de sport complète et des studios collectifs, des piscines intérieure et extérieure, un spa, un institut de beauté et un barbier, deux restaurants, ainsi que des clubs dédiés aux enfants et aux futures mamans — plus un parking et un lavage auto, pour que toute la visite soit prise en charge."
+      },
+      {
+        "title": "Pour qui",
+        "text": "Pour ceux qui se lèvent tôt et veulent nager avant le travail. Pour les parents qui ont besoin d'un endroit pour leurs enfants pendant qu'ils s'entraînent. Pour quiconque veut une vraie journée spa sans quitter le bâtiment où il vient de s'entraîner. Nous avons pensé à tout cela à la fois."
+      }
+    ],
+    "pillars": [
+      { "title": "Mouvement", "text": "Une salle de sport complète, des studios collectifs et deux piscines : il y a toujours un moyen de s'entraîner, quel que soit le jour." },
+      { "title": "Récupération", "text": "Sauna, massage et soins spa se trouvent à quelques pas de la salle de sport, pas de l'autre côté de la ville." },
+      { "title": "Communauté", "text": "Cours collectifs, club enfants et espace dédié aux futures mamans font de ce lieu un endroit pour toute la famille, pas seulement pour un membre." },
+      { "title": "Praticité", "text": "Restaurants, institut de beauté, barbier, parking et lavage auto : une seule visite peut couvrir une grande partie de votre journée." }
+    ],
+    "timeline": [
+      { "label": "2024", "text": "Pose de la première pierre du plus grand site de bien-être de la ville." },
+      { "label": "2025", "text": "Construction et installation des équipements dans les huit espaces, des piscines au spa." },
+      { "label": "2026", "text": "Ouverture des portes le 31 juillet — abonnements, cours et centre complet sont entrés en service." }
+    ],
+    "ctaHeading": "Prêt à voir ce qui vous attend ?",
+    "ctaButton": "Découvrir les abonnements"
+  },
+  "servicesPage": {
+    "eyebrow": "Guide complet des installations",
+    "heading": "Tout est inclus, espace par espace",
+    "intro": "Un seul abonnement donne accès aux huit espaces. Voici ce que contient réellement chacun d'eux.",
+    "items": [
+      {
+        "title": "Salle de sport et fitness",
+        "description": "Un étage entier d'équipements de musculation et de cardio pour tous les niveaux.",
+        "details": ["Poids libres, machines et zone d'entraînement fonctionnel", "Zone dédiée aux étirements et à la mobilité", "Espace ouvert pour les séances de coaching personnel"]
+      },
+      {
+        "title": "Cours collectifs",
+        "description": "Des cours en studio, du HIIT au yoga, animés par nos coachs.",
+        "details": ["Plusieurs studios avec des cours toute la journée", "Formats du spinning et de la boxe au pilates et à la danse", "Premier cours offert pour les nouveaux membres"]
+      },
+      {
+        "title": "Piscines intérieure et extérieure",
+        "description": "Nagez toute l'année : en intérieur l'hiver, en extérieur l'été.",
+        "details": ["Piscine intérieure chauffée ouverte toute l'année", "Piscine extérieure ouverte pendant les mois chauds", "Cours d'aquafitness dédiés dans les deux piscines"]
+      },
+      {
+        "title": "Espace spa",
+        "description": "Massages, sauna et soins pour récupérer et se détendre.",
+        "details": ["Accès au sauna et au hammam inclus avec la formule Premium", "Massages et soins du corps réservables par les membres", "Un espace calme, séparé de la salle de sport"]
+      },
+      {
+        "title": "Beauté et barbier",
+        "description": "Institut de beauté et barbier sur place, sans déplacement supplémentaire.",
+        "details": ["Institut complet pour cheveux, ongles et soins de la peau", "Fauteuils de barbier dédiés", "Réservez avant ou après votre séance"]
+      },
+      {
+        "title": "Restaurants et bar",
+        "description": "Deux établissements pour les repas du quotidien et les soirées.",
+        "details": ["Un lieu décontracté toute la journée pour manger après l'effort", "Un bar-restaurant façon SkyLine pour les soirées", "Des menus pensés autour des horaires d'entraînement"]
+      },
+      {
+        "title": "Clubs enfants et futures mamans",
+        "description": "Des programmes dédiés aux enfants et aux futures mamans.",
+        "details": ["Club enfants surveillé pendant que les parents s'entraînent", "Cours de fitness prénatal et d'aquagym", "Horaires adaptés aux familles le week-end"]
+      },
+      {
+        "title": "Parking et lavage auto",
+        "description": "Un grand parking avec lavage auto pendant votre entraînement.",
+        "details": ["Parking gratuit pour tous les membres", "Lavage auto pendant que vous êtes à l'intérieur", "Accès facile, sans stationnement dans la rue"]
+      }
+    ],
+    "ctaHeading": "Trouvez la formule qui couvre tout",
+    "ctaButton": "Voir les abonnements"
+  },
+  "membershipPage": {
+    "eyebrow": "Abonnements",
+    "heading": "La formule adaptée à votre usage",
+    "intro": "Trois niveaux, chacun complétant le précédent. Écrivez-nous sur Instagram pour connaître les tarifs actuels — voici ce qu'inclut chaque formule.",
+    "plans": [
+      {
+        "name": "Basique",
+        "description": "L'essentiel pour vous entraîner, à votre rythme.",
+        "bestFor": "Idéal pour s'entraîner seul, à son propre rythme.",
+        "features": ["Accès complet à la salle de sport", "Accès au casier", "Bilan fitness gratuit", "Engagements de 2 à 12 mois"]
+      },
+      {
+        "name": "Standard",
+        "description": "Ajoutez les piscines et les cours collectifs à votre routine.",
+        "bestFor": "Idéal pour ceux qui veulent ajouter piscines et cours collectifs.",
+        "features": ["Tout ce qui est inclus dans Basique", "Accès aux piscines intérieure et extérieure", "Cours collectifs illimités", "1 pass invité par mois", "Option de gel d'abonnement"]
+      },
+      {
+        "name": "Premium",
+        "description": "Le centre dans son intégralité, avec des attentions VIP partout.",
+        "bestFor": "Idéal pour ceux qui veulent le centre complet avec des attentions VIP.",
+        "features": ["Tout ce qui est inclus dans Standard", "Vestiaire dédié", "Un soin spa offert chaque mois", "Accès à l'institut de beauté et au barbier", "Séances de coaching personnel"]
+      }
+    ],
+    "faq": [
+      { "question": "Comment fonctionnent les durées d'abonnement ?", "answer": "Les formules durent de 2 à 12 mois. Les engagements plus longs offrent un meilleur tarif et plus de flexibilité pour geler votre abonnement." },
+      { "question": "Puis-je geler mon abonnement ?", "answer": "Les formules Standard et Premium incluent une option de gel, pour qu'un voyage ou une blessure ne vous fasse pas perdre le temps déjà payé." },
+      { "question": "Qu'inclut le pass invité ?", "answer": "Les membres Standard et Premium reçoivent un pass invité mensuel — amenez un ami ou un proche pour une visite complète, sans abonnement séparé." },
+      { "question": "Existe-t-il une option enfants ou famille ?", "answer": "Le club enfants et le club futures mamans sont inclus dans toutes les formules — aucun abonnement séparé n'est nécessaire." },
+      { "question": "Comment connaître les tarifs ?", "answer": "Écrivez-nous sur Instagram ou demandez à l'accueil — nous vous donnerons les tarifs actuels et vous aiderons à vous inscrire." }
+    ],
+    "ctaHeading": "Prêt à nous rejoindre ?",
+    "ctaButton": "Écrire sur Instagram"
+  },
+  "visitPage": {
+    "eyebrow": "Nous visiter",
+    "heading": "Préparez votre première visite",
+    "intro": "Nous avons ouvert nos portes le 31 juillet 2026. Voici ce qu'il faut savoir avant de venir.",
+    "location": {
+      "label": "Adresse",
+      "value": "31 rue Khanjyan, Erevan 0010, Arménie",
+      "note": "À quelques minutes du centre-ville, avec un parking gratuit pour tous les visiteurs."
+    },
+    "getDirections": "Obtenir l'itinéraire",
+    "hoursLabel": "Horaires",
+    "hours": [
+      { "day": "Lundi – vendredi", "time": "7h00 – 23h00" },
+      { "day": "Samedi – dimanche", "time": "8h00 – 22h00" }
+    ],
+    "info": [
+      { "title": "Comment venir", "text": "L'itinéraire complet et les informations sur les transports seront publiés ici une fois l'adresse confirmée." },
+      { "title": "Parking", "text": "Le grand parking sur place est gratuit pour tous les membres, avec un service de lavage auto pendant votre visite." },
+      { "title": "Première visite", "text": "Passez à l'accueil pour une visite rapide et pour créer votre abonnement — aucun rendez-vous nécessaire." },
+      { "title": "Contact", "text": "Pour l'instant, Instagram est le moyen le plus rapide de nous joindre en attendant la mise en service de notre ligne téléphonique." }
+    ],
+    "instagramHandle": "@yerevan_wellness",
+    "instagramText": "Suivez-nous pour les cours, les actualités du centre et les offres réservées aux membres.",
+    "instagramCta": "Suivre sur Instagram"
+  },
+  "careers": {
+    "eyebrow": "Carrières",
+    "heading": "Construisez votre carrière avec nous",
+    "text": "Nous formons une équipe aussi grande que le centre lui-même — coachs, thérapeutes et hôtes qui font de Yerevan Wellness un lieu comme chez soi. Si c'est vous, nous serions ravis de vous rencontrer.",
+    "roles": ["Coachs", "Spa et beauté", "Piscine et aquagym", "Accueil", "Restauration", "Club enfants"],
+    "detailsCta": "Voir les postes"
+  },
+  "careersPage": {
+    "eyebrow": "Carrières",
+    "heading": "Rejoignez l'équipe qui construit le plus grand centre de bien-être d'Erevan",
+    "intro": "Nous recrutons dans tous les secteurs du centre — de la salle de sport à l'accueil. Voici à quoi ressemble le travail chez nous et comment postuler.",
+    "perks": [
+      { "title": "Abonnement gratuit", "text": "Accès complet à la salle de sport, aux piscines et aux cours pour chaque membre de l'équipe." },
+      { "title": "Formation et certification", "text": "Nous investissons dans votre évolution grâce à une formation continue et un soutien à la certification." },
+      { "title": "De la place pour évoluer", "text": "En tant que l'une des équipes les plus récentes de la ville, il y a de réelles opportunités d'évoluer vers des postes plus importants." },
+      { "title": "Une culture d'équipe avant tout", "text": "Vous travaillerez aux côtés de personnes qui se soucient des mêmes choses que vous : le mouvement, les gens et le travail bien fait." }
+    ],
+    "rolesHeading": "Postes à pourvoir",
+    "roles": [
+      { "title": "Coachs", "text": "Coachs personnels et animateurs de cours collectifs en renforcement, cardio et formats spécialisés." },
+      { "title": "Spécialistes spa et beauté", "text": "Masseurs, esthéticiennes et barbiers pour notre espace spa et beauté." },
+      { "title": "Personnel piscine et aquagym", "text": "Maîtres-nageurs et instructeurs de natation/aquagym pour nos piscines intérieure et extérieure." },
+      { "title": "Accueil et abonnements", "text": "Le premier visage que voient les membres : accueil, conseillers en abonnement et service aux clients." },
+      { "title": "Restauration", "text": "Personnel de cuisine et de service pour nos restaurants et notre bar." },
+      { "title": "Club enfants et famille", "text": "Personnel de garde pour notre club enfants et instructeurs pour nos programmes de fitness prénatal." }
+    ],
+    "ctaHeading": "Vous ne voyez pas votre poste ?",
+    "ctaText": "Écrivez-nous quand même — nous construisons cette équipe à partir de zéro et sommes toujours ouverts à rencontrer de bonnes personnes.",
+    "ctaButton": "Écrire sur Instagram"
+  }
+}

@@ -1,0 +1,34 @@
+.decor {
+  position: absolute;
+  width: clamp(320px, 34vw, 560px);
+  height: auto;
+  opacity: 0.22;
+  filter: blur(0.5px);
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+:root[data-theme="light"] .decor {
+  opacity: 0.16;
+  mix-blend-mode: luminosity;
+}
+
+.topRight {
+  top: -10%;
+  right: -6%;
+}
+
+.bottomLeft {
+  bottom: -14%;
+  left: -8%;
+}
+
+.topLeft {
+  top: -10%;
+  left: -6%;
+}
+
+.bottomRight {
+  bottom: -14%;
+  right: -8%;
+}

@@ -1,0 +1,179 @@
+.visit {
+  background: var(--color-bg-elevated);
+  border-block: 1px solid var(--color-border);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: clamp(32px, 6vw, 72px);
+  align-items: start;
+}
+
+.heading {
+  margin-top: 14px;
+  font-size: clamp(1.8rem, 3.4vw, 2.5rem);
+}
+
+.statusBadge {
+  margin-top: 18px;
+}
+
+.infoRow {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.infoIcon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: var(--color-accent);
+  margin-top: 2px;
+}
+
+.infoLabel {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-ink-soft);
+}
+
+.infoValue {
+  margin-top: 6px;
+  font-size: 1.02rem;
+  max-width: 40ch;
+}
+
+.hoursList {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hoursList div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: 320px;
+  font-size: 1.02rem;
+}
+
+.hoursList dt {
+  color: var(--color-ink-soft);
+}
+
+.hoursList dd {
+  font-weight: 600;
+}
+
+.instaCard {
+  position: relative;
+  overflow: hidden;
+  padding: 44px 36px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(
+    155deg,
+    var(--color-brand) 0%,
+    var(--color-violet) 55%,
+    var(--color-accent) 100%
+  );
+  color: var(--color-ink);
+  box-shadow: var(--shadow-soft);
+}
+
+.instaCard::before {
+  content: "";
+  position: absolute;
+  top: -35%;
+  right: -25%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.instaCard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.16) 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+  mask-image: radial-gradient(circle at 25% 15%, black, transparent 65%);
+  -webkit-mask-image: radial-gradient(circle at 25% 15%, black, transparent 65%);
+  pointer-events: none;
+}
+
+.instaCardInner {
+  position: relative;
+}
+
+.instaIconWrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.4);
+}
+
+.instaIcon {
+  width: 26px;
+  height: 26px;
+}
+
+.instaHandle {
+  margin-top: 22px;
+  font-family: var(--font-display), serif;
+  font-size: 1.45rem;
+  letter-spacing: -0.01em;
+}
+
+.instaText {
+  margin-top: 12px;
+  opacity: 0.9;
+  line-height: 1.6;
+  font-size: 0.96rem;
+  max-width: 34ch;
+}
+
+.instaCta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 28px;
+  width: 100%;
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: none;
+  background: #fff;
+  color: var(--color-violet);
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.instaCta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 32px -16px rgba(0, 0, 0, 0.5);
+}
+
+.instaCtaIcon {
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
