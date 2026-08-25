@@ -96,6 +96,12 @@
 }
 
 @media (max-width: 1180px) {
+  .header {
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    background: color-mix(in srgb, var(--color-bg) 94%, transparent);
+  }
+
   .toggle {
     display: flex;
   }
@@ -107,7 +113,9 @@
     align-items: flex-start;
     gap: 4px;
     padding: 24px;
-    background: var(--color-bg);
+    background: color-mix(in srgb, var(--color-bg) 92%, transparent);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     transform: translateY(-12px);
     opacity: 0;
     pointer-events: none;
