@@ -69,19 +69,53 @@
   font-weight: 600;
 }
 
+.socialCards {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.socialCardsRow {
+  display: flex;
+  gap: 14px;
+}
+
+.socialCardsRow .instaCard {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.socialText {
+  color: var(--color-ink-soft);
+  line-height: 1.55;
+  font-size: 0.92rem;
+  max-width: 42ch;
+}
+
 .instaCard {
   position: relative;
   overflow: hidden;
-  padding: 44px 36px;
+  padding: 16px 18px;
   border-radius: var(--radius-lg);
+  color: var(--color-ink);
+  box-shadow: var(--shadow-soft);
+}
+
+.instagramCard {
   background: linear-gradient(
     155deg,
     var(--color-brand) 0%,
     var(--color-violet) 55%,
     var(--color-accent) 100%
   );
-  color: var(--color-ink);
-  box-shadow: var(--shadow-soft);
+}
+
+.facebookCard {
+  background: linear-gradient(155deg, #1877f2 0%, #0d5cb6 60%, #0a3d82 100%);
+}
+
+.facebookCard .instaCta {
+  color: #1877f2;
 }
 
 .instaCard::before {
@@ -89,8 +123,8 @@
   position: absolute;
   top: -35%;
   right: -25%;
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, transparent 70%);
   pointer-events: none;
@@ -115,8 +149,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 56px;
-  height: 56px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(12px);
@@ -126,23 +160,15 @@
 }
 
 .instaIcon {
-  width: 26px;
-  height: 26px;
+  width: 20px;
+  height: 20px;
 }
 
 .instaHandle {
-  margin-top: 22px;
+  margin-top: 14px;
   font-family: var(--font-display), serif;
-  font-size: 1.45rem;
+  font-size: 1.05rem;
   letter-spacing: -0.01em;
-}
-
-.instaText {
-  margin-top: 12px;
-  opacity: 0.9;
-  line-height: 1.6;
-  font-size: 0.96rem;
-  max-width: 34ch;
 }
 
 .instaCta {
@@ -150,32 +176,21 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  margin-top: 28px;
+  margin-top: 16px;
   width: 100%;
-  padding: 14px 28px;
+  padding: 11px 20px;
   border-radius: 999px;
   border: none;
   background: #fff;
   color: var(--color-violet);
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .instaCta:hover {
   transform: translateY(-2px);
   box-shadow: 0 16px 32px -16px rgba(0, 0, 0, 0.5);
-}
-
-.facebookCta {
-  margin-top: 12px;
-  background: transparent;
-  color: #fff;
-  border: 1.5px solid rgba(255, 255, 255, 0.6);
-}
-
-.facebookCta:hover {
-  box-shadow: none;
 }
 
 .instaCtaIcon {
@@ -186,5 +201,11 @@
 @media (max-width: 860px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .socialCardsRow {
+    flex-direction: column;
   }
 }

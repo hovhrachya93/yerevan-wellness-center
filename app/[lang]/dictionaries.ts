@@ -75,6 +75,7 @@ export type Dictionary = {
     instagramHandle: string;
     instagramText: string;
     instagramCta: string;
+    facebookHandle: string;
     facebookCta: string;
     detailsCta: string;
   };
@@ -136,6 +137,7 @@ export type Dictionary = {
     instagramHandle: string;
     instagramText: string;
     instagramCta: string;
+    facebookHandle: string;
     facebookCta: string;
   };
   careers: {

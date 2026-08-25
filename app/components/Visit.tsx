@@ -61,33 +61,47 @@ export default function Visit({
           </Link>
         </Reveal>
 
-        <Reveal direction="right" delay={100} className={styles.instaCard}>
-          <div className={styles.instaCardInner}>
-            <div className={styles.instaIconWrap}>
-              <InstagramIcon className={styles.instaIcon} />
-            </div>
-            <p className={styles.instaHandle}>{dict.instagramHandle}</p>
-            <p className={styles.instaText}>{dict.instagramText}</p>
-            <a
-              href="https://www.instagram.com/yerevan_wellness/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.instaCta}
-            >
-              <InstagramIcon className={styles.instaCtaIcon} />
-              <span>{dict.instagramCta}</span>
-            </a>
-            <a
-              href="https://www.facebook.com/profile.php?id=61592994126865"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`${styles.instaCta} ${styles.facebookCta}`}
-            >
-              <FacebookIcon className={styles.instaCtaIcon} />
-              <span>{dict.facebookCta}</span>
-            </a>
+        <div className={styles.socialCards}>
+          <p className={styles.socialText}>{dict.instagramText}</p>
+
+          <div className={styles.socialCardsRow}>
+            <Reveal direction="right" delay={100} className={`${styles.instaCard} ${styles.instagramCard}`}>
+              <div className={styles.instaCardInner}>
+                <div className={styles.instaIconWrap}>
+                  <InstagramIcon className={styles.instaIcon} />
+                </div>
+                <p className={styles.instaHandle}>{dict.instagramHandle}</p>
+                <a
+                  href="https://www.instagram.com/yerevan_wellness/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.instaCta}
+                >
+                  <InstagramIcon className={styles.instaCtaIcon} />
+                  <span>{dict.instagramCta}</span>
+                </a>
+              </div>
+            </Reveal>
+
+            <Reveal direction="right" delay={180} className={`${styles.instaCard} ${styles.facebookCard}`}>
+              <div className={styles.instaCardInner}>
+                <div className={styles.instaIconWrap}>
+                  <FacebookIcon className={styles.instaIcon} />
+                </div>
+                <p className={styles.instaHandle}>{dict.facebookHandle}</p>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61592994126865"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.instaCta}
+                >
+                  <FacebookIcon className={styles.instaCtaIcon} />
+                  <span>{dict.facebookCta}</span>
+                </a>
+              </div>
+            </Reveal>
           </div>
-        </Reveal>
+        </div>
       </div>
     </section>
   );
