@@ -70,9 +70,12 @@ export type Dictionary = {
     locationValue: string;
     hoursLabel: string;
     hours: { day: string; time: string }[];
+    phoneLabel: string;
+    phoneValue: string;
     instagramHandle: string;
     instagramText: string;
     instagramCta: string;
+    facebookCta: string;
     detailsCta: string;
   };
   footer: {
@@ -127,10 +130,13 @@ export type Dictionary = {
     getDirections: string;
     hoursLabel: string;
     hours: { day: string; time: string }[];
+    phone: { label: string; value: string };
+    loadMap: string;
     info: { title: string; text: string }[];
     instagramHandle: string;
     instagramText: string;
     instagramCta: string;
+    facebookCta: string;
   };
   careers: {
     eyebrow: string;

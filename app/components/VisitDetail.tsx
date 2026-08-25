@@ -1,6 +1,7 @@
-import { ClockIcon, InstagramIcon, PinIcon } from "./icons";
+import { ClockIcon, FacebookIcon, InstagramIcon, PhoneIcon, PinIcon } from "./icons";
 import type { Dictionary } from "../[lang]/dictionaries";
 import Reveal from "./Reveal";
+import MapEmbed from "./MapEmbed";
 import OpenStatusBadge from "./OpenStatusBadge";
 import visitStyles from "./Visit.module.css";
 import styles from "./VisitDetail.module.css";
@@ -56,6 +57,16 @@ export default function VisitDetail({
                   </dl>
                 </div>
               </div>
+
+              <div className={visitStyles.infoRow}>
+                <PhoneIcon className={visitStyles.infoIcon} />
+                <div>
+                  <p className={visitStyles.infoLabel}>{dict.phone.label}</p>
+                  <p className={visitStyles.infoValue}>
+                    <a href="tel:+37410331000">{dict.phone.value}</a>
+                  </p>
+                </div>
+              </div>
             </Reveal>
 
             <Reveal direction="right" delay={100} className={visitStyles.instaCard}>
@@ -74,17 +85,24 @@ export default function VisitDetail({
                   <InstagramIcon className={visitStyles.instaCtaIcon} />
                   <span>{dict.instagramCta}</span>
                 </a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61592994126865"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`${visitStyles.instaCta} ${visitStyles.facebookCta}`}
+                >
+                  <FacebookIcon className={visitStyles.instaCtaIcon} />
+                  <span>{dict.facebookCta}</span>
+                </a>
               </div>
             </Reveal>
           </div>
 
           <Reveal direction="up" className={styles.mapFrame}>
-            <iframe
+            <MapEmbed
               src="https://www.google.com/maps?q=31+Khanjyan+St,+Yerevan+0010,+Armenia&output=embed"
               title="Map to 31 Khanjyan St, Yerevan"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              className={styles.map}
+              label={dict.loadMap}
             />
           </Reveal>
         </div>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { InstagramIcon } from "./icons";
+import { FacebookIcon, InstagramIcon } from "./icons";
 import type { Dictionary } from "../[lang]/dictionaries";
 import type { Locale } from "../i18n";
 import styles from "./Footer.module.css";
@@ -48,15 +48,26 @@ export default function Footer({
           ))}
         </nav>
 
-        <a
-          href="https://www.instagram.com/yerevan_wellness/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.social}
-          aria-label="Yerevan Wellness on Instagram"
-        >
-          <InstagramIcon className={styles.socialIcon} />
-        </a>
+        <div className={styles.socialGroup}>
+          <a
+            href="https://www.instagram.com/yerevan_wellness/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.social}
+            aria-label="Yerevan Wellness on Instagram"
+          >
+            <InstagramIcon className={styles.socialIcon} />
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61592994126865"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.social}
+            aria-label="Yerevan Wellness on Facebook"
+          >
+            <FacebookIcon className={styles.socialIcon} />
+          </a>
+        </div>
       </div>
 
       <div className={`container ${styles.bottom}`}>

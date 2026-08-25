@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ClockIcon, InstagramIcon, PinIcon } from "./icons";
+import { ClockIcon, FacebookIcon, InstagramIcon, PhoneIcon, PinIcon } from "./icons";
 import type { Dictionary } from "../[lang]/dictionaries";
 import type { Locale } from "../i18n";
 import Reveal from "./Reveal";
@@ -46,6 +46,16 @@ export default function Visit({
             </div>
           </div>
 
+          <div className={styles.infoRow}>
+            <PhoneIcon className={styles.infoIcon} />
+            <div>
+              <p className={styles.infoLabel}>{dict.phoneLabel}</p>
+              <p className={styles.infoValue}>
+                <a href="tel:+37410331000">{dict.phoneValue}</a>
+              </p>
+            </div>
+          </div>
+
           <Link href={`/${lang}/visit`} className="detailsLink">
             {dict.detailsCta} →
           </Link>
@@ -66,6 +76,15 @@ export default function Visit({
             >
               <InstagramIcon className={styles.instaCtaIcon} />
               <span>{dict.instagramCta}</span>
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=61592994126865"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${styles.instaCta} ${styles.facebookCta}`}
+            >
+              <FacebookIcon className={styles.instaCtaIcon} />
+              <span>{dict.facebookCta}</span>
             </a>
           </div>
         </Reveal>

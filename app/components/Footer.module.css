@@ -53,6 +53,11 @@
   opacity: 1;
 }
 
+.socialGroup {
+  display: flex;
+  gap: 12px;
+}
+
 .social {
   display: inline-flex;
   align-items: center;

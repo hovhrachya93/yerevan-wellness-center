@@ -167,6 +167,17 @@
   box-shadow: 0 16px 32px -16px rgba(0, 0, 0, 0.5);
 }
 
+.facebookCta {
+  margin-top: 12px;
+  background: transparent;
+  color: #fff;
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+}
+
+.facebookCta:hover {
+  box-shadow: none;
+}
+
 .instaCtaIcon {
   width: 18px;
   height: 18px;

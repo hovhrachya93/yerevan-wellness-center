@@ -98,6 +98,27 @@ export function InstagramIcon({ className }: IconProps) {
   );
 }
 
+export function FacebookIcon({ className }: IconProps) {
+  return (
+    <svg {...base} className={className} aria-hidden="true">
+      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <path
+        d="M14 8.6h-1.3c-.7 0-1.2.5-1.2 1.3v1.8h2.4l-.3 2.4h-2.1V19h-2.5v-5h-1.7v-2.4h1.7V9.6c0-1.9 1.2-3.3 3.2-3.3H14v2.3Z"
+        fill="currentColor"
+        stroke="none"
+      />
+    </svg>
+  );
+}
+
+export function PhoneIcon({ className }: IconProps) {
+  return (
+    <svg {...base} className={className} aria-hidden="true">
+      <path d="M4 5c0-1 .8-1.8 1.8-1.8h2c.5 0 1 .3 1.2.8l1 2.4c.2.5 0 1-.3 1.4L8.4 9.2a12 12 0 0 0 6.4 6.4l1.4-1.3c.4-.3 1-.4 1.4-.3l2.4 1c.5.2.8.7.8 1.2v2c0 1-.8 1.8-1.8 1.8C11 20 4 13 4 5Z" />
+    </svg>
+  );
+}
+
 export function PinIcon({ className }: IconProps) {
   return (
     <svg {...base} className={className} aria-hidden="true">
