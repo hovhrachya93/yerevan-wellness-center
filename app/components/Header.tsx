@@ -9,7 +9,7 @@ import HeaderSettings from "./HeaderSettings";
 import styles from "./Header.module.css";
 
 const REVEAL_THRESHOLD = 80;
-const IDLE_REVEAL_DELAY = 400;
+const SCROLL_DELTA_THRESHOLD = 4;
 
 export default function Header({
   dict,
@@ -22,33 +22,23 @@ export default function Header({
   const [hidden, setHidden] = useState(false);
 
   useEffect(() => {
-    let idleTimer: ReturnType<typeof setTimeout>;
-
-    function reveal() {
-      setHidden(false);
-    }
+    let lastScrollY = window.scrollY;
 
     function handleScroll() {
-      if (window.scrollY < REVEAL_THRESHOLD) {
-        reveal();
-      } else {
-        setHidden(true);
+      const scrollY = window.scrollY;
+      const delta = scrollY - lastScrollY;
+
+      if (scrollY < REVEAL_THRESHOLD) {
+        setHidden(false);
+      } else if (Math.abs(delta) > SCROLL_DELTA_THRESHOLD) {
+        setHidden(delta > 0);
       }
 
-      clearTimeout(idleTimer);
-      idleTimer = setTimeout(reveal, IDLE_REVEAL_DELAY);
+      lastScrollY = scrollY;
     }
 
     window.addEventListener("scroll", handleScroll, { passive: true });
-    // Fires precisely when the browser considers scrolling (including
-    // trackpad momentum) to have fully settled; the timer above is a
-    // fallback for browsers that don't support it yet.
-    window.addEventListener("scrollend", reveal, { passive: true });
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      window.removeEventListener("scrollend", reveal);
-      clearTimeout(idleTimer);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const navLinks = [
