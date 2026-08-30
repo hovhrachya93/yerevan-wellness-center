@@ -32,3 +32,9 @@
   bottom: -14%;
   right: -8%;
 }
+
+@media (max-width: 640px) {
+  .decor {
+    display: none;
+  }
+}

@@ -1,7 +1,6 @@
 import { ClockIcon, FacebookIcon, InstagramIcon, PhoneIcon, PinIcon } from "./icons";
 import type { Dictionary } from "../[lang]/dictionaries";
 import Reveal from "./Reveal";
-import MapEmbed from "./MapEmbed";
 import OpenStatusBadge from "./OpenStatusBadge";
 import visitStyles from "./Visit.module.css";
 import styles from "./VisitDetail.module.css";
@@ -119,14 +118,6 @@ export default function VisitDetail({
               </div>
             </div>
           </div>
-
-          <Reveal direction="up" className={styles.mapFrame}>
-            <MapEmbed
-              src="https://www.google.com/maps?q=31+Khanjyan+St,+Yerevan+0010,+Armenia&output=embed"
-              title="Map to 31 Khanjyan St, Yerevan"
-              label={dict.loadMap}
-            />
-          </Reveal>
         </div>
       </section>
 

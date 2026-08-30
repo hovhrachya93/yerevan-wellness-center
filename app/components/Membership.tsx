@@ -3,9 +3,9 @@ import Link from "next/link";
 import type { Dictionary } from "../[lang]/dictionaries";
 import type { Locale } from "../i18n";
 import Reveal from "./Reveal";
-import { DECOR_IMAGE_SIZES } from "./decorImage";
-import decor from "./ClassDecor.module.css";
 import styles from "./Membership.module.css";
+
+const DECOR_SIZES = "(max-width: 640px) 180px, (max-width: 833px) 200px, (max-width: 1583px) 24vw, 380px";
 
 const FEATURED_INDEX = 1;
 
@@ -23,8 +23,8 @@ export default function Membership({
         alt=""
         width={800}
         height={800}
-        sizes={DECOR_IMAGE_SIZES}
-        className={`${decor.decor} ${decor.topRight}`}
+        sizes={DECOR_SIZES}
+        className={styles.decorImage}
       />
       <div className={`container ${styles.inner}`}>
         <Reveal direction="up">

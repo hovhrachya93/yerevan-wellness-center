@@ -132,7 +132,6 @@ export type Dictionary = {
     hoursLabel: string;
     hours: { day: string; time: string }[];
     phone: { label: string; value: string };
-    loadMap: string;
     info: { title: string; text: string }[];
     instagramHandle: string;
     instagramText: string;

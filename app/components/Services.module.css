@@ -5,6 +5,29 @@
   border-block: 1px solid var(--color-border);
 }
 
+.decorImage {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: clamp(200px, 24vw, 380px);
+  height: auto;
+  opacity: 0.22;
+  filter: blur(0.5px);
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+:root[data-theme="light"] .decorImage {
+  opacity: 0.16;
+  mix-blend-mode: luminosity;
+}
+
+@media (max-width: 640px) {
+  .decorImage {
+    display: none;
+  }
+}
+
 .inner {
   position: relative;
 }

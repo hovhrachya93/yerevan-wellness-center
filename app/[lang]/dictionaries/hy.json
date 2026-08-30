@@ -107,9 +107,9 @@
     "phoneValue": "(010) 331000",
     "instagramHandle": "@yerevan_wellness",
     "instagramText": "Հետևեք մեզ՝ դասերի, հարմարությունների նորությունների և անդամների առաջարկների համար։",
-    "instagramCta": "Հետևեք Instagram-ում",
+    "instagramCta": "Instagram-ում",
     "facebookHandle": "Yerevan Wellness",
-    "facebookCta": "Հետևեք Facebook-ում",
+    "facebookCta": "Facebook-ում",
     "detailsCta": "Այցելության մանրամասներ"
   },
   "footer": {
@@ -276,18 +276,16 @@
       { "day": "Շաբաթ – Կիրակի", "time": "8:00 – 22:00" }
     ],
     "phone": { "label": "Հեռախոս", "value": "(010) 331000" },
-    "loadMap": "Ցուցադրել քարտեզը",
     "info": [
-      { "title": "Ինչպես հասնել", "text": "Ամբողջական ուղղությունները և տրանսպորտի մասին տեղեկությունը կհրապարակվեն այստեղ, հասցեն հաստատվելուց հետո։" },
       { "title": "Ավտոկայանում", "text": "Ընդարձակ ավտոկայանատեղին անվճար է բոլոր անդամների համար՝ ավտոլվացման ծառայությամբ, մինչ դուք ներսում եք։" },
       { "title": "Առաջին այցելություն", "text": "Այցելեք ընդունարան կարճ շրջայցի և անդամակցությունը ձևակերպելու համար․ նախնական գրանցում պետք չէ։" },
       { "title": "Կապ", "text": "Զանգահարեք (010) 331000 հեռախոսահամարով կամ գրեք մեզ Instagram-ում կամ Facebook-ում։" }
     ],
     "instagramHandle": "@yerevan_wellness",
     "instagramText": "Հետևեք մեզ՝ դասերի, հարմարությունների նորությունների և անդամների առաջարկների համար։",
-    "instagramCta": "Հետևեք Instagram-ում",
+    "instagramCta": "Instagram-ում",
     "facebookHandle": "Yerevan Wellness",
-    "facebookCta": "Հետևեք Facebook-ում"
+    "facebookCta": "Facebook-ում"
   },
   "careers": {
     "eyebrow": "Կարիերա",

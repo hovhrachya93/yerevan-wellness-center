@@ -107,9 +107,9 @@
     "phoneValue": "(010) 331000",
     "instagramHandle": "@yerevan_wellness",
     "instagramText": "Follow along for classes, facility updates and member offers.",
-    "instagramCta": "Follow on Instagram",
+    "instagramCta": "Instagram",
     "facebookHandle": "Yerevan Wellness",
-    "facebookCta": "Follow on Facebook",
+    "facebookCta": "Facebook",
     "detailsCta": "Visit Details"
   },
   "footer": {
@@ -276,18 +276,16 @@
       { "day": "Saturday – Sunday", "time": "8:00 – 22:00" }
     ],
     "phone": { "label": "Phone", "value": "(010) 331000" },
-    "loadMap": "Load map",
     "info": [
-      { "title": "Getting here", "text": "Full directions and transit information will be posted here once the address is confirmed." },
       { "title": "Parking", "text": "Large on-site parking is free for all members, with car wash service available while you're inside." },
       { "title": "First visit", "text": "Stop by the front desk for a quick tour and to set up your membership — no appointment needed." },
       { "title": "Contact", "text": "Call us at (010) 331000 or reach out on Instagram or Facebook with any questions." }
     ],
     "instagramHandle": "@yerevan_wellness",
     "instagramText": "Follow along for classes, facility updates and member offers.",
-    "instagramCta": "Follow on Instagram",
+    "instagramCta": "Instagram",
     "facebookHandle": "Yerevan Wellness",
-    "facebookCta": "Follow on Facebook"
+    "facebookCta": "Facebook"
   },
   "careers": {
     "eyebrow": "Careers",

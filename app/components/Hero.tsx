@@ -11,15 +11,6 @@ export default function Hero({ dict }: { dict: Dictionary["hero"] }) {
       <div className={styles.glow} aria-hidden="true" />
       <div className={styles.glow2} aria-hidden="true" />
       <Image
-        src="/classes/swimming.png"
-        alt=""
-        width={800}
-        height={800}
-        sizes={DECOR_IMAGE_SIZES}
-        priority
-        className={`${decor.decor} ${decor.topRight}`}
-      />
-      <Image
         src="/classes/meditation.png"
         alt=""
         width={800}
