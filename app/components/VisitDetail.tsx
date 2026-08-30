@@ -14,7 +14,7 @@ export default function VisitDetail({
 }) {
   return (
     <main>
-      <section className="section">
+      <section className={`section ${styles.detailsSection}`}>
         <div className="container">
           <Reveal direction="up">
             <p className="eyebrow">{dict.eyebrow}</p>

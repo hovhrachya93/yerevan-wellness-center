@@ -1,6 +1,7 @@
 .visit {
   background: var(--color-bg-elevated);
   border-block: 1px solid var(--color-border);
+  overflow: hidden;
 }
 
 .grid {
@@ -207,5 +208,9 @@
 @media (max-width: 480px) {
   .socialCardsRow {
     flex-direction: column;
+  }
+
+  .socialCardsRow .instaCard {
+    flex: 1 1 auto;
   }
 }

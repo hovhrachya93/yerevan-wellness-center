@@ -1,3 +1,7 @@
+.detailsSection {
+  overflow: hidden;
+}
+
 .heading {
   margin-top: 14px;
   font-size: clamp(2rem, 4vw, 3.25rem);

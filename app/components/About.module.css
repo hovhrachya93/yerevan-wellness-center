@@ -80,12 +80,13 @@
   }
 
   .visual {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 4 / 3;
     order: -1;
   }
 
   .visualCrest {
-    width: auto;
-    height: 80%;
+    width: 60%;
+    height: auto;
+    transform: translate(-50%, -65%);
   }
 }
